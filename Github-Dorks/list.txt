@@ -1,0 +1,176 @@
+
+###### GitHub Dorks List (For Security Research Only)
+
+---
+
+### 1. Sensitive Files
+filename:.env
+filename:config.php
+filename:docker-compose.yml
+filename:.htpasswd
+filename:.git-credentials
+filename:id_rsa OR filename:id_dsa
+filename:.bash_history
+filename:sftp-config.json
+filename:config.json
+filename:credentials.json
+
+---
+
+### 2. API Keys & Tokens
+api_key
+api_token
+aws_key
+aws_secret
+github_token
+secret_key
+access_key
+secret_access_key
+firebase_api_key
+slack_token
+slack_webhook
+stripe_api_key
+
+---
+
+### 3. Database Credentials
+password
+db_password
+database_password
+db_username
+db_host
+DB_USER
+DB_PASS
+DB_NAME
+MYSQL_ROOT_PASSWORD
+MONGODB_URI
+
+---
+
+### 4. Cloud Service Credentials
+AKIA[0-9A-Z]{16}
+"AWS_SECRET_ACCESS_KEY"
+"AZURE_STORAGE_ACCOUNT"
+"GOOGLE_API_KEY"
+"GCP_SERVICE_ACCOUNT"
+"heroku_api_key"
+"digitalocean_token"
+
+---
+
+### 5. Hardcoded Passwords
+
+password =
+passwd =
+pwd =
+pass =
+login_password
+admin_password
+root_password
+
+---
+
+### 6. Private Keys
+BEGIN RSA PRIVATE KEY
+BEGIN OPENSSH PRIVATE KEY
+BEGIN PRIVATE KEY
+BEGIN DSA PRIVATE KEY
+BEGIN EC PRIVATE KEY
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+
+---
+
+### 7. Configuration Files
+filename:.npmrc _auth
+filename:.dockercfg auth
+filename:web.config password
+filename:.s3cfg
+filename:wp-config.php
+filename:config.php dbpasswd
+
+---
+
+### 8. Logs & Backups
+filename:error.log
+filename:access.log
+filename:*.bak
+filename:*.old
+filename:*.backup
+filename:*.sql
+
+---
+
+### 9. GitHub Tokens
+github_token
+ghp_
+gho_
+ghu_
+ghs_
+github_pat_
+
+---
+
+### 10. CI/CD Files
+filename:.travis.yml
+filename:circle.yml
+filename:Jenkinsfile
+filename:bitbucket-pipelines.yml
+filename:appveyor.yml
+filename:deploy.rake
+
+---
+
+### 11. Exposed Documents
+filename:*.pdf password
+filename:*.docx password
+filename:*.xlsx password
+filename:*.csv password
+filename:*.txt password
+
+---
+
+### 12. Misconfigured Repos
+org:companyname "private"
+org:companyname "password"
+org:companyname "secret"
+org:companyname "confidential"
+
+---
+
+### 13. User Information
+user:email
+user:password
+user:credentials
+user:login
+user:token
+
+---
+
+### 14. Hardcoded URLs
+http://
+https://
+url=
+endpoint=
+api_url=
+base_url=
+
+---
+
+### 15. Debug & Test Files
+filename:debug.log
+filename:test.log
+filename:testing.env
+filename:staging.yml
+filename:dev.json
+
+---
+
+### Advanced Dorks
+extension:pem private
+extension:ppk private
+extension:sql mysql dump
+extension:json api.
+extension:xml api.
+path:/src/ config
+path:/app/ secrets
+
