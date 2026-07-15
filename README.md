@@ -2,10 +2,10 @@
 
 Github Dorks are specialized search queries used to find sensitive data, misconfigurations, or exposed secrets in public repositories it can help to you.
 
-Website: https://vektrlacademy.com
+Website: [vektrlacademy.com](https://vektrlacademy.com)
 
-Telegram: https://t.me/vektrlacademy
+Join our [Telegram Channel](https://t.me/vektrlacademy)
 
-Linkedin: https://linkedin.com/company/vektrlacademy
+Linkedin: [Vektrl Academy](https://linkedin.com/company/vektrlacademy)
 
-Twitter: https://x.com/vektrlacademy
+Follow on [X](https://x.com/vektrlacademy)
