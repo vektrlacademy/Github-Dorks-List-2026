@@ -8,4 +8,4 @@ Join our [Telegram Channel](https://t.me/vektrlacademy)
 
 Linkedin: [Vektrl Academy](https://linkedin.com/company/vektrlacademy)
 
-Follow on [X](https://x.com/vektrlacademy)
+Follow on [X (Twitter)](https://x.com/vektrlacademy)
